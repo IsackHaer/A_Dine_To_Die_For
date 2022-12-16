@@ -1,16 +1,14 @@
 # A_Dine_To_Die_For
 Final project for Syntax basic programming module.
 
-A small turn-based console game.
+A small turn-based game that is played inside the IDE console.
 
-Includes:
+### Gameplay:
 - A short introduction story.
 - One intensive boss battle.
 
-This game can be played inside the IDE console.
-
-Project consists of:
-- Main.
+### Project files consists of:
+- Main (here the gameplay logic is structured and from here the game is runned).
 - Character class (main class), is where features like name & hp are constructed.
 - Boss & BossADD subclasses for both Bosses where their unique abilities are programmed (Inherets from Character class).
 - Heroes subclass for shared heroes specific features e.g. Critchance methode, AP cost calculator etc. (Inherets from Character class).
